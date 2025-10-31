@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/91949/Desktop/Network%20Security%20Project/mlruns/0/models/m-9b4ae777ba08499681b08384a7d7f630/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.5.1
+model_id: m-9b4ae777ba08499681b08384a7d7f630
+model_size_bytes: 76245
+model_uuid: m-9b4ae777ba08499681b08384a7d7f630
+prompts: null
+run_id: cb5b93f17c494d7caeed182a3bbe1ea8
+utc_time_created: '2025-10-31 22:09:30.312223'
